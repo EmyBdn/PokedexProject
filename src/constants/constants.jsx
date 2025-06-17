@@ -3,4 +3,6 @@ export const CONSTANTS = {
     POKEBALL_ICON: '../src/assets/images/pokeball_icon.png',
     POKEBALL_BACKGROUND:'./src/assets/images/pokeball_bg.png',
 
+    POKEMON_IMG:'http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world'
+
 }
