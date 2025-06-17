@@ -1,0 +1,8 @@
+.searchBar {
+    width: 90%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px #ffeacf solid;
+    align-content: start;
+}
