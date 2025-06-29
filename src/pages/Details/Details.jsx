@@ -71,7 +71,7 @@ export function Details() {
                 </div>
 
                 <div className={style.statsContainer}>
-                    <PokemonStatsList pokemon={pokemon}/>
+                    {pokemon && <PokemonStatsList pokemon={pokemon}/>}
                 </div>
 
                 <div className={style.reviewsContainer}>
