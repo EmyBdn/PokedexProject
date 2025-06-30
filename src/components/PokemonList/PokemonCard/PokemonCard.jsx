@@ -4,7 +4,11 @@ import {ROUTES} from "../../../routes/Routes.jsx";
 import {Link} from "react-router";
 import { PokemonTypeBadge } from "/src/components/PokemonStats/PokemonTypeBadge/PokemonTypeBadge.jsx";
 
-
+/**
+ * PokemonCard
+ * Displays a summary card for a single Pokemon, including its image, name, ID, and types.
+ * Clicking the card navigates to the detailed page of the Pokemon.
+ */
 export function PokemonCard({pokemon}) {
     return (
         <Link to={ROUTES.DETAILS.replace(':id', `${pokemon.id}`)} className={style.cardLink}>

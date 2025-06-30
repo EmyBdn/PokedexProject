@@ -1,6 +1,10 @@
-import style from "../../PokemonList/PokemonList.module.css";
+import style from "./ReviewsList.module.css"
 import {ReviewItem} from "./ReviewItem/ReviewItem.jsx";
 
+/**
+ * ReviewsList
+ * Renders the list of all reviews associated with the selected Pokemon.
+ */
 export function ReviewsList({reviewsList}) {
     return (
         <>

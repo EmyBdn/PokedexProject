@@ -1,3 +1,9 @@
+import style from "./ReviewItem.module.css";
+
+/**
+ * ReviewItem
+ * Displays a single review, showing the author's name and their message.
+ */
 export function ReviewItem({review}) {
     return (
         <div>

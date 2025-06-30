@@ -1,5 +1,10 @@
 import {useState} from 'react';
 
+/**
+ * ReviewInput
+ * Input field for submitting a new review for a Pokemon.
+ * Sends the review when the user presses the Enter key.
+ */
 export function ReviewInput({onSubmit}) {
     const [content, setContent] = useState('');
 
