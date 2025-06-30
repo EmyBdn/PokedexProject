@@ -6,7 +6,7 @@ import style from "./ReviewItem.module.css";
  */
 export function ReviewItem({review}) {
     return (
-        <div>
+        <div className={style.reviewItem}>
             <p>{review.content}</p>
             <span>Posted by : {review.author}</span>
         </div>

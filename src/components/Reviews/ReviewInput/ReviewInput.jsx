@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import style from "./ReviewInput.module.css"
 
 /**
  * ReviewInput
@@ -22,6 +23,7 @@ export function ReviewInput({onSubmit}) {
             onChange={(e) => setContent(e.target.value)}
             value={content}
             onKeyDown={handleKeyDown}
+            className={style.reviewInput}
         />
     )
 }
