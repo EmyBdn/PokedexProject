@@ -2,7 +2,7 @@
   "pokemons": [
     {
       "id": "1",
-      "like": 11,
+      "like": 16,
       "name": "Bulbizarre",
       "types": [
         "Grass",
@@ -37,7 +37,7 @@
     },
     {
       "id": "2",
-      "like": 15,
+      "like": 19,
       "name": "Herbizarre",
       "types": [
         "Grass",
@@ -107,7 +107,7 @@
     },
     {
       "id": "4",
-      "like": 2,
+      "like": 3,
       "name": "Salamèche",
       "types": [
         "Fire"
@@ -244,7 +244,7 @@
     },
     {
       "id": "8",
-      "like": 0,
+      "like": 14,
       "name": "Carabaffe",
       "types": [
         "Water"
@@ -728,7 +728,7 @@
     },
     {
       "id": "22",
-      "like": 0,
+      "like": 29,
       "name": "Rapasdepic",
       "types": [
         "Normal",
@@ -899,7 +899,7 @@
     },
     {
       "id": "27",
-      "like": 0,
+      "like": 1,
       "name": "Sabelette",
       "types": [
         "Ground"
@@ -1241,7 +1241,7 @@
     },
     {
       "id": "37",
-      "like": 0,
+      "like": 21,
       "name": "Goupix",
       "types": [
         "Fire"
@@ -5109,7 +5109,7 @@
     },
     {
       "id": "150",
-      "like": 0,
+      "like": 10,
       "name": "Mewtwo",
       "types": [
         "Psychic"
@@ -5143,7 +5143,7 @@
     },
     {
       "id": "151",
-      "like": 0,
+      "like": 1,
       "name": "Mew",
       "types": [
         "Psychic"
@@ -5477,36 +5477,6 @@
       "pokemonId": 39,
       "author": "Firefighter",
       "content": "Growlithe evolves into Arcanine, a powerful fire-type Pokemon. Arcanine is known for its incredible speed and fiery breath."
-    },
-    {
-      "id": "31b9",
-      "author": "Me",
-      "content": "Good",
-      "pokemonId": "28"
-    },
-    {
-      "id": "7ab7",
-      "author": "Me",
-      "content": "nice",
-      "pokemonId": "4"
-    },
-    {
-      "id": "7817",
-      "author": "Me",
-      "content": "Super",
-      "pokemonId": "33"
-    },
-    {
-      "id": "62cb",
-      "pokemonId": 62,
-      "author": "Me",
-      "content": "hellow"
-    },
-    {
-      "id": "b23a",
-      "pokemonId": 60,
-      "author": "Me",
-      "content": "cute one"
     }
   ]
 }
