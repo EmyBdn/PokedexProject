@@ -76,10 +76,8 @@
     width: 30%;
     height: 100%;
     align-items: center;
-    justify-content: center;
-    position: relative;
+    justify-content: end;
     gap: 1rem;
-    margin-top: 12rem;
 }
 
 .reviewsHeader {

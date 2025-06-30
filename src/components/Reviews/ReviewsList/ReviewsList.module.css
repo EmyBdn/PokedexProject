@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 80%;
     overflow-y: auto;
-    height: 20rem;
+    height: 55%;
     gap: 0.5rem;
     padding: 0 0.6rem;
 }
