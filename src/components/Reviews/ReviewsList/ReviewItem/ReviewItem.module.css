@@ -1,0 +1,22 @@
+.reviewItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    gap: 0.5rem;
+    padding: 0.5rem;
+
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.reviewItem span {
+    font-weight: bold;
+}

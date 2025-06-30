@@ -1,0 +1,33 @@
+.statItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.statsValues {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.statBar {
+    height: 10px;
+    width: 200px;
+    background-color: #eee;
+    border-radius: 999px;
+    overflow: hidden;
+    border: rgb(48, 47, 47) solid 1px;
+}
+
+.statProgress {
+    height: 100%;
+    border-radius: 999px;
+    transition: width 0.3s ease;
+}
+
+span {
+    text-align: left;
+}

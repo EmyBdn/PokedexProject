@@ -1,0 +1,15 @@
+.reviewInput {
+    width: 80%;
+    height: 20px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px #ffeacf solid;
+    align-content: start;
+    outline: none;
+    color: grey;
+}
+
+.reviewInput:focus {
+    border-color: #FFCE31;
+    outline: none;
+}

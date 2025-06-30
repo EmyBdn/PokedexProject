@@ -1,8 +1,16 @@
 .searchBar {
-    width: 90%;
+    width: 95%;
     height: 20px;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 12px;
+    border-radius: 12px;
     border: 2px #ffeacf solid;
     align-content: start;
+    outline: none;
+    margin: 1rem 0;
+    color: grey;
+}
+
+.searchBar:focus {
+    border-color: #FFCE31;
+    outline: none;
 }

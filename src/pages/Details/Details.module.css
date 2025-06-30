@@ -1,13 +1,110 @@
+.detailsPageContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
 .detailsContainer {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 100%;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10rem;
 }
 
-.reviewContainer {
+.navigationButtons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.arrow {
+    font-size: 1.5rem;
+    color: lightgrey;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.arrowPlaceholder {
+    width: 1.5rem;
+    margin: 0 1rem;
+}
+
+.arrow:hover {
+    color: #FFCE31;
+}
+
+.arrow:active {
+    color: #e65100;
+}
+
+
+.illustrationContainer {
+    height: 100%;
+    width: 30%;
+    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.illustration {
+    max-width: 70%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.infosContainer {
+    text-align: center;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.reviewsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 1rem;
+    margin-top: 12rem;
+}
+
+.reviewsHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.likesContainer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.likesContainer button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
 }
