@@ -53,3 +53,20 @@ export async function postReview({ review, onSuccess }) {
         console.error("Erreur postReview:", error);
     }
 }
+
+export async function updateLikesCount({ id, newLikeCount }) {
+    try {
+        const response = await fetch(`${baseUrl}${onePokemon.replace(":id", id)}`, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ like: newLikeCount })
+        });
+
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error("Erreur lors de la mise à jour des likes :", error);
+    }
+}
