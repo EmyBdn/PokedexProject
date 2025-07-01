@@ -12,9 +12,9 @@ export function Header() {
     return (
         <div className={style.header}>
             <div className={style.logo}>
-                <Link to={ROUTES.HOME}>
-                    <img src={CONSTANTS.POKEBALL_ICON}/>
-                    <img src={CONSTANTS.LOGO}/>
+                <Link to={ROUTES.HOME} aria-label="Back to home">
+                    <img src={CONSTANTS.POKEBALL_ICON} alt="Pokeball icon"/>
+                    <img src={CONSTANTS.LOGO} alt="Pokedex logo"/>
                 </Link>
             </div>
         </div>

@@ -11,11 +11,13 @@ import { PokemonTypeBadge } from "/src/components/PokemonStats/PokemonTypeBadge/
  */
 export function PokemonCard({pokemon}) {
     return (
-        <Link to={ROUTES.DETAILS.replace(':id', `${pokemon.id}`)} className={style.cardLink}>
+        <Link to={ROUTES.DETAILS.replace(':id', `${pokemon.id}`)}
+              className={style.cardLink}
+              aria-label={`See details about ${pokemon.name}`}>
             <div className={style.pokemonCard}>
                 <img className={style.illustration}
                      src={`${CONSTANTS.POKEMON_IMG}/${pokemon.id}.svg`}
-                     alt={pokemon.name}
+                     alt={`Illustration of ${pokemon.name}`}
                 />
                 <h3>#{pokemon.id} {pokemon.name}</h3>
                 <PokemonTypeBadge types={pokemon.types} />

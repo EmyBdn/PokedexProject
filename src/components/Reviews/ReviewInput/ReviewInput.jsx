@@ -24,6 +24,7 @@ export function ReviewInput({onSubmit}) {
             value={content}
             onKeyDown={handleKeyDown}
             className={style.reviewInput}
+            aria-label="Write and submit a review by pressing Enter"
         />
     )
 }

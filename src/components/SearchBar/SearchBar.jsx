@@ -13,7 +13,8 @@ export function SearchBar({value, onChange}) {
                 placeholder='Filter the pokemon list (by name, type or number)'
                 value={value}
                 onChange={(e) => onChange(e.target.value)}
-                className={style.searchBar}/>
+                className={style.searchBar}
+                aria-label='Search for Pokemon by name, type or number'/>
         </>
     )
 }

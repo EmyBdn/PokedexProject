@@ -60,7 +60,7 @@ export function Details() {
             <div className={style.navigationButtons}>
                 {previousId ? (
                     <Link to={`/pokemon/${previousId}`}>
-                        <FaArrowLeft className={style.arrow}/>
+                        <FaArrowLeft className={style.arrow} aria-label="Previous Pokemon"/>
                     </Link>
                 ) : (
                     <div className={style.arrowPlaceholder}/>
@@ -68,7 +68,7 @@ export function Details() {
 
                 {nextId ? (
                     <Link to={`/pokemon/${nextId}`}>
-                        <FaArrowRight className={style.arrow}/>
+                        <FaArrowRight className={style.arrow} aria-label="Next Pokemon"/>
                     </Link>
                 ) : (
                     <div className={style.arrowPlaceholder}/>
@@ -81,7 +81,7 @@ export function Details() {
                 <div className={style.illustrationContainer}>
                     {pokemon && <img className={style.illustration}
                                      src={`${CONSTANTS.POKEMON_IMG}/${pokemon.id}.svg`}
-                                     alt={pokemon.name}
+                                     alt={`Illustration of ${pokemon.name}`}
                     />}
                 </div>
 
@@ -95,7 +95,7 @@ export function Details() {
 
                     <div className={style.reviewsHeader}>
                         {pokemon && <div className={style.likesContainer}>
-                        <button onClick={handleLike}>♥️</button>
+                        <button onClick={handleLike} aria-label="Like this Pokemon">♥️</button>
                         <p>{pokemon.like}</p>
                     </div>}
                         <h1>Reviews</h1>
